@@ -103,6 +103,21 @@
 
 #create readable code
 
-doc.words.each do |word|
-  puts word
-end
+# doc.words.each do |word|
+#   puts word
+# end
+
+
+#instance_of? tells you wheter an object is an instance of some class:
+
+#doc.instance_of? Document
+
+#unless things get complicated:
+
+#puts doc.instance_of? self.class.superclass.class
+
+#should be..
+
+#puts doc.instanceof? (self.class.superclass.class)
+
+#In the Wild:

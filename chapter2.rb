@@ -68,12 +68,12 @@ end
 #A Case of Programming Logic - the case statement
 
 case title
-when "War And Peace"
-  puts 'Tolstoy'
-when "Romeo & Juliet"
-  puts 'Shakespeare'
-else
-  puts "Don't know"
+  when "War And Peace"
+    puts 'Tolstoy'
+  when "Romeo & Juliet"
+    puts 'Shakespeare'
+  else
+    puts "Don't know"
 end
 
 
