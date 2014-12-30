@@ -83,12 +83,49 @@
 
 #Create a method that will return the index of a particular word...
 
-def index_for( word )
-  i = 0
-  word.each {|word, i| "#{this_word => i}"}
-    i += 1
-  end
+# def index_for( word )
+#   i = 0
+#   word.each {|word, i| "#{this_word => i}"}
+#     i += 1
+#   end
+#
+# end
+#
+# index_for(["erik","grueter"])
 
-end
 
-index_for(["erik","grueter"])
+
+#Map and Inject....
+
+#Map takes a block and runs through the collection, calling the block for reach element.
+
+
+#this produces an entirely new array
+
+
+
+#Reverse funniness. The standard reverse is actually creating a copy of the array, not modifying the existing one..
+
+#this is the power of the ! bang operator An important tool.
+
+# a = [1,2,3]
+# a.reverse
+#
+# print a
+# print a.reverse
+
+#not all methods that change your collection in place have !bang operators.
+
+
+# Ordered Hashes
+
+# hey_its_ordered = {first: 'mama', second: 'papa', third: 'baby'}
+# hey_its_ordered.each { |entry| print entry }
+#
+# #adding new items to a hash sends them to the back:
+# hey_its_ordered[:fourth] = 'grandma'
+#
+# 
+# array = [0,-10, -9, 5, 9]
+# array.delete_if { |x| x < 0 }
+# print array
