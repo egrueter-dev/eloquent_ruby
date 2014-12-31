@@ -64,6 +64,14 @@
 
 #how about an each byte method?
 
-author = 'Clarke'
+# author = 'Clarke'
+#
+# puts author.each_byte {|x| puts x}
 
-puts author.each_byte {|x| puts x}
+plurals = ['cats']
+
+inflect.irregular('cat', 'cats')
+
+inflections.plurals.each do | ( rule, replacement ) |
+  break if result.gsub!(rule, replacement)
+end
